@@ -105,6 +105,9 @@ img {
 
 footer {
 	background-color: #EDBC1D;
+}
+
+footer>ul{
 	padding-left: 0.1em;
 	padding-right: 0.1em;
-}
+}	
