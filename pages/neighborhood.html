@@ -1,0 +1,132 @@
+<html>
+<head>
+	<title>The Bank | Neighborhood</title>
+	<!--Stylesheet-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!--Fonts--> 
+		<link href='http://fonts.googleapis.com/css?family=Diplomata+SC' rel='stylesheet' type='text/css'>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		
+</head>
+<body>
+
+	<nav>
+		<div>
+			<img id="menu-icon" src="imgs/menu-icon.jpg"></img>
+			<ul class="nav-list">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="tour.html">Tour The Bank</a></li>
+				<li><a href="layouts.html">Layouts</a></li>
+				<li><a href="neighborhood.html">Neighborhood</a></li>
+				<li><a href="https://nustyle.leaselineapp.com/Account/Login">Pay Rent</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="page">
+		<h1> The Neighborhood </h1>
+	</header>
+	
+	<article class="images">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.320595707276!2d-95.941567!3d41.25835500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938e4d57721aa7%3A0x432e140e80bb16c5!2sThe+Bank+Apartments!5e0!3m2!1sen!2sus!4v1428463352280" width="340" height="340" frameborder="0" style="border:0"></iframe>		
+	</article>
+
+	<div class="see-the-layouts"> 
+		<header class="page">
+			<h2>
+				Welcome to the Neighborhood
+			</h2>
+		</header>
+	</div>	
+
+	<div class="page">	
+		<section class="content">
+			<div class="main">
+				<p>
+					The Bank sits on the corners of 19th and Douglas Streets, in the heart of the downtown Omaha business district.
+				</p> 
+			</div>	
+		</section>
+	</div>
+
+	<div class="page">
+		<section class="content">
+			<div class="main">
+				<ul>
+					<li>Joslyn Art Museum, 2200 Dodge Street</li>
+					<li>The Durham Museum, 801 South 10th Street</li>
+					<li>Saigon Surface</li>
+					<li>Sullivan's Steakhouse</li>
+					<li>Starbucks</li>
+					<li>Ted & Wally's, 1120 Jackson Street</li>
+					<li>Jazz, A Louisiana Kitchen, 1421 Farnam Street</li>
+					<li>Flatiron Cafe, 1722 Saint Marys Avenue</li>
+					<li>Manhattan Deli, 222 South 19th Street</li>
+					<li>Matsu Sushi, 1009 Farnam Street</li>
+				</ul>
+			</div>	
+		</section>	
+	</div>
+	
+	<footer>
+		<div class="info content">
+			<ul id="left-footer"> 
+				<li>Theme By Eric Villanueva</li>
+			</ul>		
+			<ul id="right-footer">
+				<li>Copyright 2015</li>
+			</ul>
+		</div>	
+	</footer>
+
+<!-- H-Menu -->
+	<script type="text/javascript">
+		$(function() {
+			$nav = $('.nav-list');
+
+			$('.menu-icon').click(function(){
+				$nav.slideToggle();
+			});
+		});
+
+	</script>
+
+<!-- Scrolling Effect -->		
+	
+	<script type="text/javascript">
+		$(function(){
+			$('a.bank').click(function(){
+				$('html, body').animate({scrollTop:$('#bank').offset().top}, 1000);
+			});
+
+			$('a.tour').click(function(){
+				$('html, body').animate({scrollTop:$('#tour').offset().top}, 1000);
+			});
+
+			$('a.layouts').click(function(){
+				$('html, body').animate({scrollTop:$('#layouts').offset().top}, 1000);
+			});
+
+			$('a.neighborhood').click(function(){
+				$('html, body').animate({scrollTop:$('#neighborhood').offset().top}, 1000);
+			});
+
+			$('a.contact').click(function(){
+				$('html, body').animate({scrollTop:$('#contact').offset().top}, 1000);
+			});
+
+			$('a.rent').click(function(){
+				$('html, body').animate({scrollTop:$('#rent').offset().top}, 1000);
+			});
+
+			$('a.gallery').click(function(){
+				$('html, body').animate({scrollTop:$('#gallery').offset().top}, 1000);
+			});
+		});		
+	</script>
+	
+</body>
+</html>
