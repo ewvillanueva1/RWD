@@ -92,6 +92,22 @@ nav>div>img{
 .images{
 	width:100%;	
 }
+.map{
+	height:0;
+	width:100%;
+	overflow:hidden;
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:2%;
+}
+
+.map>iframe {
+	width:100%;
+	height: 100%;
+	top:0;
+	left:0;
+	position:absolute;
+}
 
 .subsection-color {
 	background-color: #FFFF00;
