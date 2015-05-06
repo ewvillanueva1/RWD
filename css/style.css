@@ -2,6 +2,7 @@ html, body, header, section, article, div , ul, li, img, h1, h2 {
 margin:0 auto;
 padding: 0;
 font-family: "Helvetica", sans-serif;
+list-style-type: none;
 }	
 
 
@@ -39,8 +40,8 @@ nav>div>img{
 }
 
 .menu-icon {
-	padding-top: 5px;
-	margin-left: 15px;
+	padding-top: 0.5em;
+	margin-left: 1.5em;
 	cursor: pointer;
 	position: relative;
 }
@@ -81,12 +82,7 @@ nav>div>img{
 } 
 
 .section-1 {
-	background-color: #B3B3B3;
-	color: #EFEDCB; 
-}
-
-.section-2{
-	
+	background-color: #5A5959;
 }
 
 .images{
@@ -110,7 +106,7 @@ nav>div>img{
 }
 
 .subsection-color {
-	background-color: #FFFF00;
+	background-color: #EDBC1D;
 }
 
 a:hover{
